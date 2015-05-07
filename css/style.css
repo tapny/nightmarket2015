@@ -186,13 +186,13 @@ a {
   letter-spacing: .1em;
   font-size: 14px;
   text-transform: uppercase;
-  color: #4DB870;
+  color: #9AC847;
   margin-bottom: 0px; }
 
 .button {
   display: inline-block;
   padding: 18px 24px;
-  background: #4DB870;
+  background: #9AC847;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 700;
@@ -201,7 +201,7 @@ a {
   text-transform: uppercase; }
   .button:hover {
     color: #ffffff;
-    background: #ff501a; }
+    background: #FDE03A; }
 
 .inner {
   position: absolute;
@@ -286,19 +286,19 @@ header {
     .details .left a {
       line-height: 400px;
       color: #ffffff;
-      background: #4DB870;
+      background: #9AC847;
       /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #4DB870 0%, #ffb03e 100%);
+      background: -moz-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
       /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #4DB870), color-stop(100%, #ff501a));
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #9AC847), color-stop(100%, #FDE03A));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(-45deg, #4DB870 0%, #ff501a 100%);
+      background: -webkit-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(-45deg, #4DB870 0%, #ff501a 100%);
+      background: -o-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
       /* Opera 11.10+ */
-      background: -ms-linear-gradient(-45deg, #4DB870 0%, #ff501a 100%);
+      background: -ms-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
       /* IE10+ */
-      background: linear-gradient(225deg, #4DB870 0%, #ff501a 100%);
+      background: linear-gradient(225deg, #9AC847 0%, #FDE03A 100%);
       /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */
@@ -317,13 +317,22 @@ header {
   padding: 48px;
   line-height: 36px; }
   .information h3 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 28px;
     font-weight: 300;
     margin-bottom: 48px;
     text-align: center; }
   .information p {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px; }
   .information ul {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     width: 100%;
     list-style: none;
@@ -360,6 +369,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   height: 300px;
+  overflow: hidden;
   background-position: 50% 50%;
   position: relative;
   background-color: rgba(77,184,112, .3); }
@@ -469,6 +479,11 @@ header {
         .more ul li {
           width: 100%; } }
 
+.social {
+  padding: 48px 0;
+  margin: 0 auto;
+  width: 55%; }
+
 .eventbrite, .thanks {
   padding: 48px; }
   .eventbrite h3, .thanks h3 {
@@ -498,7 +513,3 @@ header {
 .red {
   color: red; }
 
-.social {
-  padding: 48px 0;
-  margin: 0 auto;
-  width: 55%; }
