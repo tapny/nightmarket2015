@@ -240,15 +240,14 @@ nav {
 
 header {
   position: relative;
-  height: 500px;
+  height: 700px;
   background-image: url(../img/bannerbg.jpg);
   background-position: center bottom;
   background-size: cover;
   text-align: center; }
   header .icon {
     display: block;
-    height: 315px;
-    margin: 0 auto 24px auto;
+    height: 530px;
     background-image: url(../img/bannerimage.png);
     background-size: auto 90%;
     background-position: center;
