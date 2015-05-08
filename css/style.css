@@ -248,7 +248,7 @@ header {
   header .icon {
     display: block;
     height: 530px;
-    background-image: url(../img/bannerimage.png);
+    background-image: url(../img/bannerimage.svg);
     background-size: auto 90%;
     background-position: center;
     background-repeat: no-repeat; }
