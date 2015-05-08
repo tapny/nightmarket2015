@@ -2,10 +2,7 @@
 var photos = document.querySelector('.photos');
 var photosGrid = document.querySelector('.photos-grid');
 
-window.photos = photos;
-window.photosGrid = photosGrid;
-
-document.addEventListener('scroll', function() {
+var updateParallax = function() {
     var windowHeight = window.innerHeight;
     var photosHeight = photos.clientHeight
     var windowMidPt = (windowHeight - photosHeight) / 2 / windowHeight;
@@ -24,4 +21,7 @@ document.addEventListener('scroll', function() {
     var offset = photosMidPt * slope + intercept;
 
     photosGrid.style['transform'] = 'translateY(' + offset + 'px)';
-})
+}
+
+document.addEventListener('scroll', updateParallax)
+window.addEventListener('resize', updateParallax)
