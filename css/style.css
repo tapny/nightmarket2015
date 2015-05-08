@@ -285,11 +285,7 @@ header {
     background-position: 50% 50%; }
     .details .left a {
       line-height: 400px;
-<<<<<<< HEAD
-      color: #ffffff;
-=======
       color: #404041;
->>>>>>> 38ef2ea99d316ebabf9b283062bb149b34773437
       background: #9AC847;
       /* Old browsers */
       background: -moz-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
@@ -337,10 +333,7 @@ header {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> 38ef2ea99d316ebabf9b283062bb149b34773437
     display: block;
     width: 100%;
     list-style: none;
