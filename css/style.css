@@ -368,6 +368,8 @@ header {
         .information ul li {
           width: 30%; } }
       @media screen and (max-width: 560px) {
+        .information {
+          padding: 48px 28px; }
         .information ul li {
           width: 49%; }
         .informationn ul li div:not(.hide) ~ div {
