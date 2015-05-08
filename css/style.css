@@ -176,7 +176,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffb03e; }
+  color: rgb(244,148,175); }
   a:hover {
     color: #ffdd71; }
 
@@ -285,7 +285,7 @@ header {
     background-position: 50% 50%; }
     .details .left a {
       line-height: 400px;
-      color: #ffffff;
+      color: #404041;
       background: #9AC847;
       /* Old browsers */
       background: -moz-linear-gradient(-45deg, #9AC847 0%, #FDE03A 100%);
@@ -333,21 +333,25 @@ header {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     display: block;
     width: 100%;
     list-style: none;
-    margin-bottom: 36px;
     overflow: hidden; }
     .information ul li {
-      display: block;
-      width: 19.999%;
-      float: left;
+      display: inline-block;
+      width: 24.5%;
+      margin-bottom: 36px;
+      vertical-align: middle;
       text-align: center; }
       .information ul li .logo {
         display: inline-block; }
-        .information ul li .logo .square {
-          width: 100px;
+        .information ul li .logo img {
           height: 100px; }
+        .information ul li .logo.square img {
+          width: 100px; }
+        .information ul li .logo.rectangle img {
+          width: 150px; }
         .information ul li .logo a {
           font: bold; }
       .information ul li .icon {
@@ -360,9 +364,14 @@ header {
         background-position-x: -100px; }
       .information ul li .lobster, .information ul li .noodles {
         background-position-y: -100px; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 767px) {
         .information ul li {
-          width: 49.999%; } }
+          width: 30%; } }
+      @media screen and (max-width: 560px) {
+        .information ul li {
+          width: 49%; }
+        .informationn ul li div:not(.hide) ~ div {
+          display: none;} }
 
 .photos {
   background-image: url(../img/pictures.jpg);
@@ -407,12 +416,12 @@ header {
   background-size: cover;
   background-position: center top;
   width: 25%;
-  height: 25vw;
+  height: 30vw;
 }
 @media all and (max-width: 1024px) {
   .photos-grid div {
     width: 33.333%;
-    height: 33vw; }
+    height: 40vw; }
 }
 @media all and (max-width: 479px) {
   .photos-grid div {
@@ -437,6 +446,12 @@ header {
   background-image: url(../img/grid8.jpg); }
 .grid9 {
   background-image: url(../img/grid9.jpg); }
+.grid10 {
+  background-image: url(../img/grid10.jpg); }
+.grid11 {
+  background-image: url(../img/grid11.jpg); }
+.grid12 {
+  background-image: url(../img/grid12.jpg); }
 
 .more {
   background: rgb(40,40,40);
@@ -513,3 +528,5 @@ header {
 .red {
   color: red; }
 
+.hide {
+  display: none !important; }
