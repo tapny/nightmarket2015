@@ -240,18 +240,14 @@ nav {
 
 header {
   position: relative;
-  height: 500px;
-  background-image: url(../img/bannerbg.jpg);
+  height: 600px;
+  background-image: url(../img/banner.jpg);
+  background-position: center bottom;
   background-size: cover;
   text-align: center; }
   header .icon {
     display: block;
-    height: 315px;
-    margin: 0 auto 24px auto;
-    background-image: url(../img/bannerimage.png);
-    background-size: auto 90%;
-    background-position: center;
-    background-repeat: no-repeat; }
+    height: 420px; }
   header .label {
     margin-bottom: 10px; }
   header h2 {
@@ -520,6 +516,9 @@ header {
         height: 100px;
         margin: 0 auto;
         width: 400px; }
+  .eventbrite iframe {
+    min-height: 250px;
+  }
 
 .left {
   float: left; }
