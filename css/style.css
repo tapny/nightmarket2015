@@ -516,6 +516,9 @@ header {
         height: 100px;
         margin: 0 auto;
         width: 400px; }
+  .eventbrite iframe {
+    min-height: 250px;
+  }
 
 .left {
   float: left; }
