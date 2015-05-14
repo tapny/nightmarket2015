@@ -178,7 +178,7 @@ a {
   text-decoration: none;
   color: rgb(244,148,175); }
   a:hover {
-    color: #ffdd71; }
+    color: #9AC847; }
 
 .label {
   font-family: "Montserrat";
@@ -349,7 +349,7 @@ header {
         .information ul li .logo.rectangle img {
           width: 150px; }
         .information ul li .logo a {
-          font: bold; }
+          font-weight: bold; }
       .information ul li .icon {
         display: inline-block;
         width: 100px;
@@ -372,12 +372,8 @@ header {
           display: none;} }
 
 .photos {
-  background-image: url(../img/pictures.jpg);
-  background-size: cover;
-  background-attachment: fixed;
   height: 300px;
   overflow: hidden;
-  background-position: 50% 50%;
   position: relative;
   background-color: rgba(77,184,112, .3); }
   .photos a {
