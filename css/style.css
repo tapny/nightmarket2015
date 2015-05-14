@@ -162,6 +162,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  padding-bottom: 40px;
   color: #404041;
   background: #ffffff;
   font-weight: 300;
@@ -508,13 +509,20 @@ header {
         font-size: 20px;
         text-align: center; }
       .eventbrite .columns .column img, .thanks .columns .column img {
-        display: block;
-        height: 100px;
+        display: inline-block;
+        height: auto;
         margin: 0 auto;
         width: 400px; }
   .eventbrite iframe {
     min-height: 250px;
   }
+
+.center {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .left {
   float: left; }
